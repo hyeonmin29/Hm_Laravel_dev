@@ -73,4 +73,14 @@ return [
         public_path('storage') => storage_path('app/public'),
     ],
 
+
+    #20230104_이현민 ftp 추가설정
+    'ftp' => [
+        'driver' => 'ftp',
+        'host' => env('FTP_HOST'),
+        'username' => env('FTP_USERNAME'),
+        'password' => env('FTP_PASSWORD'),
+    ],
+
+
 ];

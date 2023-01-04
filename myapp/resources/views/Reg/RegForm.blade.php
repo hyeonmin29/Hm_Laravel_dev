@@ -21,7 +21,7 @@
             <li><input type = 'submit' value = '가입하기'>
                 <input type = 'reset' value = '다시 작성하기'>
                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-                <input type = 'button' value = '홈으로 돌아가기' onclick = "window.location= '..MainPage/MainPage'">
+                <input type = 'button' value = '홈으로 돌아가기' onclick = "window.location= 'MainPage/MainPage'">
             </li>
         </form>
     </body>

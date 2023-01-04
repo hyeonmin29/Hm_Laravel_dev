@@ -15,9 +15,9 @@
             <li>
                 <input type='submit' value='로그인'/>
                 <input type='reset' value='다시 쓰기'/>
-                <input type='button' value='회원가입' onclick="window.location = 'RegForm.php'"/>
-                <input type='button' value='홈으로 돌아가기' onclick="window.location= '../user/MainPage.php'"/>
-                <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+                <input type='button' value='회원가입' onclick="window.location = 'RegForm'"/>
+                <input type='button' value='홈으로 돌아가기' onclick="window.location= 'MainPage'"/>
+               <input type="hidden" name="_token" value="{{ csrf_token() }}" /> 
             </li>
             </p>
         </form>
