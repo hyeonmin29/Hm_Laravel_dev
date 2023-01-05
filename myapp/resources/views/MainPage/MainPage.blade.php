@@ -14,14 +14,6 @@
             } else {
                 @endphp
                 <h3> 로그인이 필요합니다. </h3>
-            <script>
-                var msg = '{{Session::get('alert')}}';
-                var exist = '{{Session::has('alert')}}';
-                if(exist){
-                    alert(msg);
-                }
-            </script>
-
                 <a href = '/LoginForm' id = 'current'>로그인</a>
                 @php
             }

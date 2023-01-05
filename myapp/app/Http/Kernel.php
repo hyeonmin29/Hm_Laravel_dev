@@ -63,5 +63,8 @@ class Kernel extends HttpKernel
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+
+        # 20230105_이현민 로그인 인증 미들웨어 등록
+        'login' => \App\Http\Middleware\LoginMiddleware::class,
     ];
 }
